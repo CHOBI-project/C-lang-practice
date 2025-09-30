@@ -1,7 +1,3 @@
-//
-// Created by 村上 康佑 on 2025/09/30.
-//
-
 #ifndef UNTITLED_FUNCTIONS_H
 #define UNTITLED_FUNCTIONS_H
 

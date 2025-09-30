@@ -1,7 +1,3 @@
-//
-// Created by 村上 康佑 on 2025/09/30.
-//
-
 #include "pointer.h"
 #include <stdio.h>
 #include <string.h>
