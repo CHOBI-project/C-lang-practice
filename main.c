@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "functions.h"
+#include "person.h"
 #include "pointer.h"
 
 int main(void) {
@@ -19,6 +20,11 @@ int main(void) {
 
     arrayPointer();
     showTextOne("hello");
+
+    Person p = {"taro", 10};
+    showInfo(p);
+
+    memoryOperation();
 
     return 0;
 }

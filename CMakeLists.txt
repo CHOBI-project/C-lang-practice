@@ -7,4 +7,6 @@ add_executable(untitled main.c
         functions.h
         functions.c
         pointer.h
-        pointer.c)
+        pointer.c
+        person.h
+        person.c)

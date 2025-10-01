@@ -8,4 +8,6 @@ void switchSentence(int);
 void forSentence(int);
 void whileSentence(int);
 
+int memoryOperation();
+
 #endif //UNTITLED_FUNCTIONS_H

@@ -3,6 +3,8 @@
 #include <string.h>
 #include "functions.h"
 
+#include <stdlib.h>
+
 void output(void) {
     printf("Hello World!!\n");
 }
@@ -81,4 +83,31 @@ void whileSentence(int max) {
         printf("while num: %d\n", num);
         num++;
     }
+}
+
+int memoryOperation() {
+    int n;
+    printf("要素数を入力");
+    scanf("%d", &n);
+
+    int *arr = malloc(n * sizeof(int));
+    if (arr == NULL) {
+        printf("メモリ確保に失敗");
+        return 1;
+    }
+
+    // 値を代入
+    for (int i = 0; i < n; i++) {
+        arr[i] = i + 1;
+    }
+
+    // 出力
+    for (int i = 0; i < n; i++) {
+        printf("%d ", arr[i]);
+    }
+
+    // 確保したメモリを解放
+    free(arr);
+
+    return 0;
 }
